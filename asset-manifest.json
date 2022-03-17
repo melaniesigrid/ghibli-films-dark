@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ghibli-films-dark/static/css/main.056ecef6.css",
+    "main.css": "/ghibli-films-dark/static/css/main.c2913119.css",
     "main.js": "/ghibli-films-dark/static/js/main.ecaa3415.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/ghibli-films-dark/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/ghibli-films-dark/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,11 +9,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ghibli-films-dark/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/topImage.png": "/ghibli-films-dark/static/media/topImage.19822478513873555297.png",
     "index.html": "/ghibli-films-dark/index.html",
-    "main.056ecef6.css.map": "/ghibli-films-dark/static/css/main.056ecef6.css.map",
+    "main.c2913119.css.map": "/ghibli-films-dark/static/css/main.c2913119.css.map",
     "main.ecaa3415.js.map": "/ghibli-films-dark/static/js/main.ecaa3415.js.map"
   },
   "entrypoints": [
-    "static/css/main.056ecef6.css",
+    "static/css/main.c2913119.css",
     "static/js/main.ecaa3415.js"
   ]
 }
