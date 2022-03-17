@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3A1C71;
+  background-color: #3a2d5c;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -172,9 +172,9 @@ h2 {
 
 .FilmImage:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 20px 20px 0 0 #3A1C71;
-  -webkit-box-shadow: 20px 20px 0 0 #3A1C71;
-  box-shadow: 20px 20px 0 0 #3A1C71;
+  -moz-box-shadow: 20px 20px 0 0 #3a2d5c;
+  -webkit-box-shadow: 20px 20px 0 0 #3a2d5c;
+  box-shadow: 20px 20px 0 0 #3a2d5c;
   transform: scale(1.03);
 }
 
