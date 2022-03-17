@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: rgba(255, 255, 255, 0.753);
+  color: white;
 }
 
 .Header {
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3a2d5c;
+  background-color: #3A1C71;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -50,7 +50,7 @@ h2 {
 .GhibliLogo {
   max-width: 100%;
   max-height: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .InputContainer {
@@ -59,15 +59,34 @@ h2 {
 
 .SearchInput {
   appearance: none;
-  background-color: #3a2d5c;
-  border: 5px solid #3a2d5c;
+  color: black;
   border-radius: 0.6rem;
-  padding: 0.4rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.07em;
-  color: rgba(255, 255, 255, 0.753);
+  /* color: rgba(255, 255, 255, 0.753); */
   max-width: 60vw;
+  min-width: 30vw;
+  /* background-image: linear-gradient(to right, #6a3093 0%, #a044ff 51%, #6a3093 100%); */
+  /* background-image: linear-gradient(to right, #20002c 0%, #cbb4d4 51%, #20002c 100%); */
+  /* background-image: linear-gradient(to right, #FFAFBD 0%, #ffc3a0 51%, #FFAFBD 100%); */
+  /* background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%); */
+  /* background-image: linear-gradient(to right, #BE93C5 0%, #7BC6CC 51%, #BE93C5 100%); */
+  /* background-image: linear-gradient(to right, #3494E6 0%, #EC6EAD 51%, #3494E6 100%); */
+  background-image: linear-gradient(to right, #3A1C71 0%, #D76D77 51%, #3A1C71 100%);
+  /* background-image: linear-gradient(to right, #43cea2 0%, #185a9d 51%, #43cea2 100%); */
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  display: block;
+}
+
+.SearchInput:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .SearchInput:focus {
@@ -75,8 +94,8 @@ h2 {
 }
 
 ::placeholder {
-  color: rgba(255, 255, 255, 0.753);
   font-weight: bold;
+  color: white;
 }
 
 .FilmsContainer {
@@ -97,13 +116,14 @@ h2 {
     0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     box-shadow 0.7s;
+  border-radius: 1rem;
 }
 
 .FilmCard:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 13px 13px 0 0 #3a2d5c;
-  -webkit-box-shadow: 13px 13px 0 0 #3a2d5c;
-  box-shadow: 13px 13px 0 0 #3a2d5c;
+  -moz-box-shadow: 13px 13px 0 0 #3A1C71;
+  -webkit-box-shadow: 13px 13px 0 0 #3A1C71;
+  box-shadow: 13px 13px 0 0 #3A1C71;
   transform: scale(1.03);
 }
 
@@ -120,10 +140,12 @@ h2 {
   justify-content: space-around;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .DetailPage {
-  background: #121212;
+  background: #212124;
   color: rgba(255, 255, 255, 0.753);
 }
 
@@ -145,14 +167,19 @@ h2 {
     webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     box-shadow 0.7s;
   margin-bottom: 1.3rem;
+  border-radius: 1rem;
 }
 
 .FilmImage:hover {
   transition-timing-function: ease-in-out;
-  -moz-box-shadow: 20px 20px 0 0 #3a2d5c;
-  -webkit-box-shadow: 20px 20px 0 0 #3a2d5c;
-  box-shadow: 20px 20px 0 0 #3a2d5c;
+  -moz-box-shadow: 20px 20px 0 0 #3A1C71;
+  -webkit-box-shadow: 20px 20px 0 0 #3A1C71;
+  box-shadow: 20px 20px 0 0 #3A1C71;
   transform: scale(1.03);
+}
+
+.InfoContainer {
+  border-radius: 2rem;
 }
 
 .InfoContainer div {
@@ -164,6 +191,16 @@ h2 {
   width: 50vw;
   display: flex;
   justify-content: space-between;
+}
+
+.MovieInfo:first-child {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.MovieInfo:last-child {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .MovieInfo:hover {

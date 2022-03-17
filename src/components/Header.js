@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="Header">
       <nav className="Navbar">
-        <Link to="/studio_ghibli/">
+        <Link to="/ghibli-films-dark/">
           <FontAwesomeIcon icon={faAngleLeft} className="Icon FirstIcon" />
         </Link>
         <h2>STUDIO GHIBLI FILMS</h2>

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/studio_ghibli/" element={<HomePage />} />
+        <Route path="/ghibli-films-dark/" element={<HomePage />} />
         <Route path="/FilmDetails/:id" element={<FilmDetails />} />
       </Routes>
     </div>
