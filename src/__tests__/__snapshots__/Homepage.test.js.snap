@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders homepage correctly 1`] = `
+<div
+  className="HomePage"
+>
+  <div
+    className="BannerDiv"
+  >
+    <img
+      alt="Ghibli Logo"
+      className="GhibliLogo"
+      src="topImage.png"
+    />
+  </div>
+  <div
+    className="FilmsContainer"
+  />
+</div>
+`;
