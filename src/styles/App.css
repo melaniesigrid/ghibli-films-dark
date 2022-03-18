@@ -234,6 +234,10 @@ h2 {
     width: 60vw;
   }
 
+  .FilmCard {
+    position: relative;
+  }
+
   .FilmBanner {
     width: 80vw;
   }
